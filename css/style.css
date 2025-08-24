@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: black;
+}
+
+.container{
+    width: 1097px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.figma-menus{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 46px;
+}
+
+.figma-menus a{
+    text-decoration: none;
+    color: #FFFFFF;
+    list-style: none;
+    font-size: 16px;
+}
+
+.box-menus{
+    display: flex;
+    gap: 60px;
+}
+.bttn{
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    font-size: 19px;
+    padding: 20px 36px 20px 36px;
+    border: #FFFFFF;
+}
+
+.section-title{
+    font-size: 85px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-text{
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#section{
+    background-color: black;
+    padding-top: 60px;
+}
+
+.btn{
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px white;
+    text-align: center;
+}
+
+.btn2{
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px white;
+    text-align: center;
+}
+
+.btn-box{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+.hj{
+    background-image: url(../images/screens\ \(1\).png);
+    height: 860px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn:hover{
+    background: rgb(10, 10, 112);
+    border-radius: 2px;
+}
+
+.btn2:hover{
+    background: rgb(10, 10, 112);
+    border-radius: 2px;
+}
